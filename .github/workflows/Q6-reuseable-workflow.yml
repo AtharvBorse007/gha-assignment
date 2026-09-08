@@ -25,4 +25,4 @@ jobs:
       - name: Show greeting
         run: |
           echo "${{ steps.greet.outputs.greeting }}"
-          echo "Deploying to ${{ inputs.target_env }}... done."
+          echo "Deploying to ${{ inputs.target_env }}... done.
