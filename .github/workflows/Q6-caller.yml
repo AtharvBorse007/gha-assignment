@@ -5,12 +5,12 @@ on:
 
 jobs:
   dev:
-    uses: ./.github/workflows/Q6-reusable-workflow.yml
+    uses: ./.github/workflows/q6-reusable.yml
     with:
       target_env: dev
 
   prod:
     needs: dev
-    uses: ./.github/workflows/Q6-reusable-workflow.yml
+    uses: ./.github/workflows/q6-reusable.yml
     with:
       target_env: prod
